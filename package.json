@@ -1,0 +1,54 @@
+{
+  "name": "redux-observable",
+  "version": "1.0.0",
+  "description": "Enhance your Redux store with observable goodness",
+  "main": "redux-observable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bgoscinski/redux-observable.git"
+  },
+  "keywords": [
+    "Redux",
+    "observable",
+    "rx",
+    "rxjs",
+    "store",
+    "enhancer"
+  ],
+  "author": "Bartosz Gościński <bargosc@gmail.com> (https://github.com/bgoscinski)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgoscinski/redux-observable/issues"
+  },
+  "homepage": "https://github.com/bgoscinski/redux-observable",
+  "devDependencies": {
+    "jspm": "^0.17.0-beta.11"
+  },
+  "jspm": {
+    "name": "redux-observable",
+    "dependencies": {
+      "redux": "npm:redux@^3.3.1",
+      "rxjs": "npm:rxjs@^5.0.0-beta.3"
+    },
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.8"
+    },
+    "peerDependencies": {
+      "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
+      "events": "github:jspm/nodelibs-events@^0.2.0-alpha",
+      "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
+      "stream": "github:jspm/nodelibs-stream@^0.2.0-alpha",
+      "util": "github:jspm/nodelibs-util@^0.2.0-alpha"
+    },
+    "overrides": {
+      "npm:inherits@2.0.1": {
+        "ignore": [
+          "test.js"
+        ]
+      }
+    }
+  }
+}
