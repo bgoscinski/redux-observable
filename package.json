@@ -2,7 +2,7 @@
   "name": "redux-observable",
   "version": "1.0.0",
   "description": "Enhance your Redux store with observable goodness",
-  "main": "redux-observable.js",
+  "main": "src/enhancer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,8 +30,7 @@
   "jspm": {
     "name": "redux-observable",
     "dependencies": {
-      "redux": "npm:redux@^3.3.1",
-      "rxjs": "npm:rxjs@^5.0.0-beta.3"
+      "rxjs": "npm:rxjs@^5.0.0-beta.4"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.8"
@@ -40,6 +39,7 @@
       "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
       "events": "github:jspm/nodelibs-events@^0.2.0-alpha",
       "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
+      "redux": "npm:redux@^3.3.1",
       "stream": "github:jspm/nodelibs-stream@^0.2.0-alpha",
       "util": "github:jspm/nodelibs-util@^0.2.0-alpha"
     },
@@ -52,3 +52,4 @@
     }
   }
 }
+

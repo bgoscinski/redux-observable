@@ -2,7 +2,7 @@ SystemJS.config({
   transpiler: "plugin-babel",
   packages: {
     "redux-observable": {
-      "main": "redux-observable.js",
+      "main": "src/enhancer.js",
       "meta": {
         "*.js": {
           "loader": "plugin-babel"
@@ -24,7 +24,7 @@ SystemJS.config({
     "plugin-babel": "npm:systemjs-plugin-babel@0.0.8",
     "process": "github:jspm/nodelibs-process@0.2.0-alpha",
     "redux": "npm:redux@3.3.1",
-    "rxjs": "npm:rxjs@5.0.0-beta.3",
+    "rxjs": "npm:rxjs@5.0.0-beta.4",
     "stream": "github:jspm/nodelibs-stream@0.2.0-alpha",
     "util": "github:jspm/nodelibs-util@0.2.0-alpha"
   },
@@ -48,7 +48,7 @@ SystemJS.config({
     },
     "npm:loose-envify@1.1.0": {
       "map": {
-        "js-tokens": "npm:js-tokens@1.0.2"
+        "js-tokens": "npm:js-tokens@1.0.3"
       }
     },
     "npm:readable-stream@2.0.6": {
